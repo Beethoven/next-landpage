@@ -1,21 +1,21 @@
 import { motion } from "framer-motion";
 
-const Box = ({ children }) => {
+const BoxZoom = ({ children }) => {
   const boxTop = {
-    hidden: { y: 50, opacity: 0 },
+    hidden: { y: 100, scale: 1.2, opacity: 0.2 },
     visible: {
       y: 0,
       opacity: 1,
+      scale: 1,
       transition: {
         staggerChildren: 0.2,
         delayChildren: 0.2,
         type: "spring",
         damping: 30,
-        velocity: 25,
       },
     },
     viewport: {
-      margin: "-10%",
+      margin: "-15%",
     },
   };
 
@@ -31,4 +31,4 @@ const Box = ({ children }) => {
   );
 };
 
-export default Box;
+export default BoxZoom;
