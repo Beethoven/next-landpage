@@ -14,9 +14,10 @@ const Box = ({ children }) => {
         velocity: 25,
       },
     },
-    viewport: {
-      margin: "-10%",
-    },
+  };
+
+  const viewport = {
+    margin: "-10%",
   };
 
   return (
@@ -24,7 +25,7 @@ const Box = ({ children }) => {
       initial="hidden"
       whileInView="visible"
       variants={boxTop}
-      viewport={boxTop.viewport}
+      viewport={viewport}
     >
       {children}
     </motion.div>
