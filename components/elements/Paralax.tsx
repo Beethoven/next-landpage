@@ -8,12 +8,13 @@ import {
 
 interface ParalaxProps {
   children: React.ReactNode;
+  speed: number;
 }
 
-const Paralax = ({ children }: ParalaxProps) => {
+const Paralax = ({ speed, children }: ParalaxProps) => {
   const { scrollYProgress, scrollY } = useViewportScroll();
 
-  const y = useTransform(scrollYProgress, [0, 1], [0, 100]);
+  const y = useTransform(scrollY, [0, 600], [0, 100 * speed]);
 
   const toTop: Variants = {
     hidden: { opacity: 0 },
@@ -28,7 +29,7 @@ const Paralax = ({ children }: ParalaxProps) => {
   };
 
   return (
-    <motion.div style={{ y: scrollY * 0.5 }} variants={toTop}>
+    <motion.div style={{ y }} variants={toTop}>
       {children}
     </motion.div>
   );

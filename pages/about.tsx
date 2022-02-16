@@ -16,6 +16,8 @@ import ToAnimate from "@components/elements/ToAnimate";
 import BarRead from "@components/elements/BarRead";
 import Paralax from "@components/elements/Paralax";
 
+import Parallax from "@components/Parallax";
+
 const About = (): JSX.Element => {
   return (
     <div>
@@ -45,7 +47,7 @@ const About = (): JSX.Element => {
         nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
         facilisi.
       </p>
-      <Paralax>
+      <Paralax speed={-0.5}>
         <h1>Paralax</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -73,18 +75,21 @@ const About = (): JSX.Element => {
         nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
         facilisi.
       </p>
+      <Paralax offset={-0.5}>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          vulputate, ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget
+          consectetur nunc nisi euismod erat. Donec eget lacinia nisl. Nulla
+          facilisi. Nulla facilisi.
+        </p>
+      </Paralax>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
         ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
         nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
         facilisi.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
-        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
-        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
-        facilisi.
-      </p>
+
       <InView>
         <ToAnimate y="100%">
           <div className="mx-auto max-w-5xl">
@@ -99,7 +104,7 @@ const About = (): JSX.Element => {
           </div>
         </ToAnimate>
       </InView>
-      <InView margin="-30%">
+      <InView margin="-10%" once={true}>
         <div className="mx-auto mt-6 max-w-4xl">
           <TitleType>
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 lg:text-7xl">
@@ -132,15 +137,15 @@ const About = (): JSX.Element => {
               <button className="btn btn-primary">Button</button>
             </div>
             <div>
-              <ToTop>
+              <Parallax offset={10}>
                 <Testimonial />
-              </ToTop>
-              <ToTop>
+              </Parallax>
+              <Parallax offset={20}>
                 <Testimonial />
-              </ToTop>
-              <ToTop>
+              </Parallax>
+              <Parallax offset={-10}>
                 <Testimonial />
-              </ToTop>
+              </Parallax>
             </div>
           </div>
         </StaggerChildren>

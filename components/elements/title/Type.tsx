@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 const Type = ({ children }) => {
   const toTop = {
-    hidden: { y: 80, opacity: 0 },
+    hidden: { x: 120, opacity: 0 },
     visible: {
-      y: 0,
+      x: 0,
       opacity: 1,
       transition: {
         type: "spring",
