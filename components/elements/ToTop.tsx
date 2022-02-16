@@ -1,6 +1,11 @@
+import React from "react";
 import { motion } from "framer-motion";
 
-const ToTop = ({ children }) => {
+interface ContainerProps {
+  children: React.ReactNode;
+}
+
+const ToTop = ({ children }: ContainerProps) => {
   const toTop = {
     hidden: { y: 80, opacity: 0 },
     visible: {
@@ -8,7 +13,7 @@ const ToTop = ({ children }) => {
       opacity: 1,
       transition: {
         type: "spring",
-        velocity: 2,
+        velocity: 10,
         damping: 30,
       },
     },

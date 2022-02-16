@@ -1,13 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-interface ContainerProps {
+interface InViewProps {
   children: React.ReactNode;
+  margin?: string;
+  once?: boolean;
 }
 
-const InView = ({ children }: ContainerProps) => {
+const InView = ({ margin, once, children }: InViewProps) => {
   const viewport = {
-    margin: "-15%",
+    margin,
+    once,
   };
 
   return (

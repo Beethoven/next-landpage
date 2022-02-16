@@ -4,7 +4,7 @@ import Box from "@components/Box";
 import Inertia from "@components/Inertia";
 import { MenuToggle } from "@components/MenuToggle";
 import BoxZoom from "@components/BoxZoom";
-import TitleBox from "@components/elements/title/Box";
+
 import TitleType from "@components/elements/title/Type";
 import Underline from "@components/decoration/Underline";
 import InView from "@components/elements/InView";
@@ -12,11 +12,15 @@ import StaggerChildren from "@components/elements/StaggerChildren";
 import CardTestimonial from "@components/elements/card/Testimonial";
 import Testimonial from "@components/elements/card/Testimonial";
 import ToTop from "@components/elements/ToTop";
+import ToAnimate from "@components/elements/ToAnimate";
+import BarRead from "@components/elements/BarRead";
+import Paralax from "@components/elements/Paralax";
 
 const About = (): JSX.Element => {
   return (
     <div>
       <SEO />
+
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
         ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
@@ -41,6 +45,22 @@ const About = (): JSX.Element => {
         nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
         facilisi.
       </p>
+      <Paralax>
+        <h1>Paralax</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          vulputate, ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget
+          consectetur nunc nisi euismod erat. Donec eget lacinia nisl. Nulla
+          facilisi. Nulla facilisi.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          vulputate, ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget
+          consectetur nunc nisi euismod erat. Donec eget lacinia nisl. Nulla
+          facilisi. Nulla facilisi.
+        </p>
+      </Paralax>
+
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
         ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
@@ -65,30 +85,22 @@ const About = (): JSX.Element => {
         nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
         facilisi.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
-        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
-        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
-        facilisi.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
-        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
-        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
-        facilisi.
-      </p>
-      <Box>
-        <div className="flex flex-col bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text py-24 text-transparent">
-          <div className="tracking-tighest mt-1 text-4xl font-extrabold uppercase sm:text-5xl lg:text-7xl">
-            Hypercolor
-          </div>{" "}
-          <h2 className="order-first font-medium tracking-wide">
-            Gradients for Tailwind CSS
-          </h2>
-        </div>
-      </Box>
       <InView>
-        <div className="mt-6">
+        <ToAnimate y="100%">
+          <div className="mx-auto max-w-5xl">
+            <div className="flex flex-col bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text py-24 text-transparent">
+              <h2 className="font-medium tracking-wide">
+                Gradients for Tailwind CSS
+              </h2>
+              <div className="tracking-tighest mt-1 text-5xl font-extrabold uppercase sm:text-6xl">
+                Hypercolor
+              </div>{" "}
+            </div>
+          </div>
+        </ToAnimate>
+      </InView>
+      <InView margin="-30%">
+        <div className="mx-auto mt-6 max-w-4xl">
           <TitleType>
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 lg:text-7xl">
               User Profiles
@@ -148,7 +160,7 @@ const About = (): JSX.Element => {
       </InView>
 
       <div className="mx-auto max-w-4xl">
-        <InView>
+        <InView margin="-20%">
           <StaggerChildren>
             <div className="mx-auto grid max-w-5xl grid-cols-1 flex-col items-center justify-center gap-4 md:grid-cols-2">
               <ToTop>
@@ -214,6 +226,7 @@ const About = (): JSX.Element => {
           </h2>
         </div>
       </Box>
+      <BarRead />
     </div>
   );
 };

@@ -9,6 +9,7 @@ const Type = ({ children }) => {
       transition: {
         type: "spring",
         velocity: 10,
+        mass: 1,
       },
     },
   };
