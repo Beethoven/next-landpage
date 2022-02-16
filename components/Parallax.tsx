@@ -25,7 +25,7 @@ const Parallax = ({ children, offset = 50 }: ParallaxProps): JSX.Element => {
 
   const yRange = useTransform(scrollY, [initial, final], [offset, -offset]);
   // apply a spring to ease the result
-  const y = useSpring(yRange, { stiffness: 400, damping: 90 });
+  const y = useSpring(yRange, { stiffness: 200, damping: 20 });
 
   useLayoutEffect(() => {
     const element = ref.current;
