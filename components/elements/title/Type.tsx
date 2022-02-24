@@ -1,6 +1,11 @@
 import { motion } from "framer-motion";
 
-const Type = ({ children }) => {
+interface TypeProps {
+  children?: React.ReactNode;
+  variants?: string;
+}
+
+const Type = ({ children, variants }: TypeProps) => {
   const toTop = {
     hidden: { x: 120, opacity: 0 },
     visible: {

@@ -2,8 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 
 interface InViewProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   margin?: string;
+  visible?: string;
   once?: boolean;
 }
 

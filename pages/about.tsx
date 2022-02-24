@@ -15,6 +15,7 @@ import ToTop from "@components/elements/ToTop";
 import ToAnimate from "@components/elements/ToAnimate";
 import BarRead from "@components/elements/BarRead";
 import Paralax from "@components/elements/Paralax";
+import Sticky from "@components/elements/sticky";
 
 import Parallax from "@components/Parallax";
 
@@ -62,7 +63,138 @@ const About = (): JSX.Element => {
           facilisi. Nulla facilisi.
         </p>
       </Paralax>
-
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
+        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
+        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
+        facilisi.
+      </p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
         ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
@@ -83,12 +215,31 @@ const About = (): JSX.Element => {
           facilisi. Nulla facilisi.
         </p>
       </Paralax>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
-        ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
-        nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
-        facilisi.
-      </p>
+      <Sticky>
+        <div className="h-screen w-full bg-gray-200">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            vulputate, ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget
+            consectetur nunc nisi euismod erat. Donec eget lacinia nisl. Nulla
+            facilisi. Nulla facilisi.
+          </p>
+          <div className="mx-auto mt-6 max-w-4xl">
+            <TitleType>
+              <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 lg:text-7xl">
+                User Profiles
+              </h2>
+            </TitleType>
+
+            <Underline bg="bg-blue-500" />
+            <p className="mt-4 text-lg text-gray-500">
+              Customizable user profiles. Allow your users to enter data and
+              easily customize their user profiles.
+            </p>
+          </div>
+        </div>
+
+        <InView></InView>
+      </Sticky>
 
       <InView>
         <ToAnimate y="100%">
