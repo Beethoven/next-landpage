@@ -3,7 +3,7 @@ import SEO from "@components/SEO";
 import Layout from "@components/Layout";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Modal from "@components/Modal";
+import { Modal } from "@components/modal";
 
 const Home = (): JSX.Element => {
   const [modalOpen, setModalOpen] = useState(false);

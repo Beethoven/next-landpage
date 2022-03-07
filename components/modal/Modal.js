@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import Backdrop from "@components/Backdrop";
+import Backdrop from "./Backdrop";
 import { MdClose } from "react-icons/md";
 
 const zoomIn = {
