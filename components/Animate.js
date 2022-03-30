@@ -7,7 +7,7 @@ const Component = () => (
     {({ inView, ref }) => (
       <motion.div
         ref={ref}
-        animate={inView ? { opacity: 1, scale: 1.2 } : { scale: 1 }}
+        animate={inView ? { opacity: 1, x: 50 } : { x: 0, opacity: 0 }}
         transition={{ duration: 0.5 }}
         className="rounded-lg bg-green-100 p-8"
       >

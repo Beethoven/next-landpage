@@ -16,6 +16,9 @@ import ToAnimate from "@components/elements/ToAnimate";
 import BarRead from "@components/elements/BarRead";
 import Paralax from "@components/elements/Paralax";
 import Sticky from "@components/elements/sticky";
+import Footer from "@components/sections/Footer";
+import Card from "@components/sections/Card";
+import Animate from "@components/Animate";
 
 import Parallax from "@components/Parallax";
 
@@ -111,6 +114,7 @@ const About = (): JSX.Element => {
         nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
         facilisi.
       </p>
+
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
         ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
@@ -153,6 +157,7 @@ const About = (): JSX.Element => {
         nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
         facilisi.
       </p>
+
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
         ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
@@ -183,12 +188,14 @@ const About = (): JSX.Element => {
         nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
         facilisi.
       </p>
+      <Card />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
         ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
         nunc nisi euismod erat. Donec eget lacinia nisl. Nulla facilisi. Nulla
         facilisi.
       </p>
+      <Animate />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate,
         ipsum eu dignissim lacinia, nisi nisl aliquet nunc, eget consectetur
@@ -302,6 +309,8 @@ const About = (): JSX.Element => {
         </StaggerChildren>
       </InView>
 
+
+
       <InView>
         <StaggerChildren>
           <div className="mx-auto grid max-w-5xl grid-cols-1 flex-col items-center justify-center gap-4 md:grid-cols-2">
@@ -355,22 +364,29 @@ const About = (): JSX.Element => {
           </StaggerChildren>
         </InView>
       </div>
-      <BoxZoom>
-        <div className="w-full rounded-3xl bg-gradient-to-r from-red-800 via-yellow-600 to-yellow-500 px-12 py-24">
-          <ul>
-            <Inertia>
-              <div className="text-center text-5xl font-bold">TEste</div>
-            </Inertia>
-            <Inertia>
-              <p className="mx-auto mt-8 max-w-2xl text-xl font-medium text-white">
-                A curated collection of beautiful Tailwind CSS gradients using
-                the full range of Tailwind CSS colors. Easily copy and paste the
-                class names, CSS or even save the gradients as an image.
-              </p>
-            </Inertia>
-          </ul>
+
+
+      <div className="hero from-primary to-accent text-primary-content min-h-screen bg-gradient-to-br">
+        <div className="hero-content mx-auto max-w-md text-center md:max-w-full">
+          <div><h2 className="mt-20 mb-2 text-4xl font-extrabold md:text-6xl">Powerful theming</h2>
+            <h3 className="mb-5 text-3xl font-bold">Apply your own design decisions</h3>
+            <p className="mx-auto mb-5 w-full max-w-lg">daisyUI adds a set of semantic color names to Tailwind. So instead of using generic color names like <span className="badge badge-ghost">bg-blue-500</span>, we can use semantic role names like <span className="badge badge-ghost">bg-primary</span> or <span className="badge badge-ghost">bg-success</span>. All colors are CSS variables so you easily add dark mode by changing a few CSS variables. <a href="/docs/themes" className="link">Read more about themes</a></p>
+            <div className="my-20 flex w-full flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-2">
+              <div data-theme="luxury" className="card bg-base-100 text-base-content mx-auto w-full max-w-xs flex-1 p-8">
+                <h3 className="text-sm font-bold">Luxury Theme</h3>
+                <div className="mt-2 flex flex-col space-y-2">
+                  <progress value="40" max="100" className="progress"></progress>
+                  <div className="flex items-center justify-center space-x-2">
+                    <div className="btn btn-accent btn-square btn-sm">
+                      <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block h-4 w-4 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </BoxZoom>
+
 
       <Box>
         <div className="flex flex-col bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text py-24 text-transparent">
@@ -383,7 +399,9 @@ const About = (): JSX.Element => {
         </div>
       </Box>
       <BarRead />
-    </div>
+      </div>
+      <Footer />
+      </div>
   );
 };
 

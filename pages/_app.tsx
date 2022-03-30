@@ -14,7 +14,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo {...SEO} />
-      <Component {...pageProps} />
+      <Component {...pageProps} data-theme="mytheme" />
     </>
   );
 }
